@@ -1,10 +1,11 @@
 class Weapon:
     def __init__(self):
         self.__name = None
-    @property 
-    def Name(self):
+
+    @property
+    def name(self):
         return self.__name
-    @Name.setter
-    def Name(self,name):
+
+    @name.setter
+    def name(self, name):
         self.__name = name
-    
